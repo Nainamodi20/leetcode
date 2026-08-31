@@ -11,9 +11,10 @@ public:
             x = x / 10;
 
         }
-        if (reverse == original)
-            return true;
-        else
-            return false;
+        // if (reverse == original)
+        //     return true;
+        // else
+        //     return false;
+        return reverse == original;
     }
 };
